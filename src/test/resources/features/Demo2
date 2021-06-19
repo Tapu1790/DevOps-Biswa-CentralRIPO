@@ -1,0 +1,4 @@
+Scenario: Check Login
+  Given I am on Test Page
+  When I provide my credentials
+  Then I should be able to login to the application
